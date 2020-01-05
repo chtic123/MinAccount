@@ -1,0 +1,20 @@
+{
+  "name": "YourMinAccount",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "miniprogram-api-typings": "^2.9.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}

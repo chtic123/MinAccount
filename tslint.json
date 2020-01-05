@@ -1,0 +1,11 @@
+{
+  "extends": "tslint:recommended",
+  "linterOptions": {
+    "exclude": ["miniprogram/typings/**/*"]
+  },
+  "rules": {
+    "quotemark": false,
+    "object-literal-sort-keys": false,
+    "no-console": false
+  }
+}

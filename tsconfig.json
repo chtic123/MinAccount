@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "ES6",
+    "target": "ES2018",
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "removeComments": true,
+    "pretty": true,
+    "strictPropertyInitialization": true,
+    "lib": ["es2018"],
+    "typeRoots": [
+      "node_modules/miniprogram-api-typings"
+    ]
+  },
+  "include": [
+    "./miniprogram/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
